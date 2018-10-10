@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+  url('../images/fitness-tracker.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.wholeWeb {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: 17px;
+  margin: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+#mainNav {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#mainNav .navbar-brand {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  
+}
+
+header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+hr {
+    max-width: 70px;
+    border-width: 3px;
+    border-color: white;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    border-color: white;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+    border-color: white;
+}
+
+.btn-xl {
+    padding: 1rem 1.5rem;
+}
+.btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    border-radius: 300px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white;
+}
